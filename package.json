@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev --filter=!@recipe-to-grocery/docs",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@recipe-to-grocery/eslint-config": "*",
+    "sort-package-json": "2.10.0",
+    "prettier": "3.2.5",
+    "turbo": "latest"
+  },
+  "packageManager": "yarn@1.22.5",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
