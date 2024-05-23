@@ -1,4 +1,4 @@
-# `Turborepo` Vite starter
+# React Chakra-UI Prisma Trpc Boilerplate
 
 This is an official starter Turborepo.
 
