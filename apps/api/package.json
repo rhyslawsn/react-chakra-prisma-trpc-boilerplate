@@ -1,5 +1,5 @@
 {
-  "name": "@recipe-to-grocery/api",
+  "name": "@now-stroke-it/api",
   "version": "1.0.0",
   "private": true,
   "description": "API for recipe-to-grocery",
@@ -14,6 +14,7 @@
     "build": "yarn build:prisma && tsup-node",
     "build:cleanup": "rm -rf ./build",
     "build:prisma": "yarn prisma generate",
+    "start": "node build/main.js",
     "dev": "SET NODE_ENV=development && nodemon src/main.ts",
     "lint": "eslint --ext .ts .",
     "lint:fix": "eslint -- --fix --ext .ts ."
@@ -32,6 +33,7 @@
     "prisma": "5.12.1",
     "trpc-shield": "0.4.4",
     "tsconfig": "*",
+    "tsup": "8.1.0",
     "util": "0.12.5",
     "uuid": "9.0.1",
     "zod": "3.22.4"

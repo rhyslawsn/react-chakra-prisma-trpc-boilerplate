@@ -1,4 +1,4 @@
 {
-  "extends": "@recipe-to-grocery/typescript-config/vite.json",
+  "extends": "@now-stroke-it/typescript-config/vite.json",
   "include": ["src"]
 }

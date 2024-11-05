@@ -1,5 +1,5 @@
 {
-  "name": "@recipe-to-grocery/types",
+  "name": "@now-stroke-it/types",
   "exports": {
     ".": "./src/index.ts"
   },

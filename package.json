@@ -1,16 +1,19 @@
 {
   "private": true,
+  "name": "now-stroke-it",
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev --filter=!@recipe-to-grocery/docs",
-    "lint": "turbo lint",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@recipe-to-grocery/eslint-config": "*",
+    "@now-stroke-it/eslint-config": "*",
     "sort-package-json": "2.10.0",
     "prettier": "3.2.5",
-    "turbo": "latest"
+    "turbo": "1.13.4"
   },
   "packageManager": "yarn@1.22.5",
   "workspaces": [

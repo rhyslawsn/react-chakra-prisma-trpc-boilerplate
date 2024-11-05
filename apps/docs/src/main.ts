@@ -1,8 +1,8 @@
-import { Header } from "@recipe-to-grocery/ui/header";
+import { Header } from "@now-stroke-it/ui/header";
 import "./style.css";
 import typescriptLogo from "/typescript.svg";
-import { Counter } from "@recipe-to-grocery/ui/counter";
-import { setupCounter } from "@recipe-to-grocery/ui/setup-counter";
+import { Counter } from "@now-stroke-it/ui/counter";
+import { setupCounter } from "@now-stroke-it/ui/setup-counter";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
